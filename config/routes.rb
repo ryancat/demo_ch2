@@ -1,4 +1,7 @@
 Demo::Application.routes.draw do
+  resources :users
+
+
   get "say/hello"
 
   get "say/godbye"
